@@ -1,0 +1,75 @@
+Component1 As CanvasComponent:
+    ContentLanguage: =""
+    Fill: =RGBA(0, 0, 0, 0)
+    Head: ="Vishalini"
+    Height: =96
+    Title: ="WFH Request"
+    Width: =1366
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Rectangle2 As rectangle:
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =96
+        Width: =1366
+        ZIndex: =1
+
+    Label2 As label:
+        Align: =Align.Justify
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Bold
+        Height: =96
+        Size: =22
+        Text: =Component1.Title
+        Width: =165
+        X: =60
+        ZIndex: =2
+
+    Circle3 As circle:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =76
+        Width: =78
+        X: =1088
+        Y: =10
+        ZIndex: =3
+
+    Icon1 As icon.ListScrollWatchlist:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =56
+        Icon: =Icon.ListScrollWatchlist
+        Width: =60
+        Y: =20
+        ZIndex: =4
+
+    Icon2 As icon.Home:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =56
+        Icon: =Icon.Home
+        Width: =53
+        X: =1016
+        Y: =20
+        ZIndex: =5
+
+    Icon3 As icon.Person:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =56
+        Icon: =Icon.Person
+        Width: =55
+        X: =1100
+        Y: =20
+        ZIndex: =6
+
+    Label3 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Bold
+        Height: =46
+        Size: =20
+        Text: =Component1.Head
+        Width: =161
+        X: =1173
+        Y: =30
+        ZIndex: =7
+

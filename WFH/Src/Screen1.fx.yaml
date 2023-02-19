@@ -1,0 +1,68 @@
+Screen1 As screen:
+    BackgroundImage: =download
+    Fill: =LightGray
+    ImagePosition: =ImagePosition.Fill
+
+    Component1_1 As Component1:
+
+    Label4 As label:
+        Align: =Align.Center
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Semibold
+        Height: =104
+        Size: =50
+        Text: ="Welcome to WFH Request"
+        Width: =948
+        X: =232
+        Y: =152
+        ZIndex: =3
+
+    Button2 As button:
+        Fill: =RGBA(0, 0, 0, 1)
+        Font: =Font.'Courier New'
+        Height: =66
+        HoverFill: =ColorFade(Color.White, -60%)
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
+        Size: =20
+        Text: ="View All Request"
+        Width: =321
+        X: =497
+        Y: =646
+        ZIndex: =4
+
+    Button3 As button:
+        Fill: =RGBA(0, 0, 0, 1)
+        Font: =Font.'Courier New'
+        Height: =66
+        HoverFill: =ColorFade(Color.White, -60%)
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
+        Size: =20
+        Text: ="View My Request"
+        Width: =321
+        X: =497
+        Y: =476
+        ZIndex: =5
+
+    Button4 As button:
+        Fill: =RGBA(0, 0, 0, 1)
+        Font: =Font.'Courier New'
+        Height: =66
+        HoverFill: =ColorFade(Color.White,-60%)
+        OnSelect: =Navigate(Screen2,ScreenTransition.Fade)
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
+        Size: =20
+        Text: ="New Request"
+        Width: =321
+        X: =497
+        Y: =306
+        ZIndex: =6
+

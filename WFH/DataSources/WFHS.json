@@ -1,0 +1,107 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crdf0_wfhs",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crdf0_wfh",
+    "MaxGetRowsCount": 500,
+    "Name": "WFHS",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crdf0_address": "Address",
+      "crdf0_employeeid": "EmployeeId",
+      "crdf0_employeename": "EmployeeName",
+      "crdf0_end": "End",
+      "crdf0_name": "Name",
+      "crdf0_phonenumber": "PhoneNumber",
+      "crdf0_projectname": "ProjectName",
+      "crdf0_requestid": "RequestId",
+      "crdf0_start": "Start",
+      "crdf0_typeofasset": "TypeofAsset",
+      "crdf0_typeofinternet": "TypeofInternet",
+      "crdf0_wfh_AsyncOperations": "System Jobs",
+      "crdf0_wfh_BulkDeleteFailures": "Bulk Delete Failures",
+      "crdf0_wfh_DuplicateBaseRecord": "Duplicate Records (crdf0_wfh_DuplicateBaseRecord)",
+      "crdf0_wfh_DuplicateMatchingRecord": "Duplicate Records (crdf0_wfh_DuplicateMatchingRecord)",
+      "crdf0_wfh_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crdf0_wfh_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crdf0_wfh_ProcessSession": "Process Sessions",
+      "crdf0_wfh_SyncErrors": "Sync Errors",
+      "crdf0_wfhid": "WFH",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "WFHS",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "WFHS (Views)",
+    "Name": "_crdf0_wfh_views",
+    "RelatedEntityName": "WFHS",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0aedcbb9-dd74-47e5-8e78-829e0a5c8c59": "Active WFHS",
+      "1e631666-4fe1-40e6-916f-4eb768b35c20": "Inactive WFHS",
+      "ab58cda7-bc17-4531-b3ba-691e9aa2c8b7": "WFH Associated View",
+      "f05d2336-6d13-46bc-a10a-0eafce901ccf": "WFH Lookup View",
+      "f2d63952-3c25-4207-af5c-231b256b24c5": "WFH Advanced Find View"
+    }
+  },
+  {
+    "DisplayName": "Status (WFHS)",
+    "Name": "crdf0_wfh_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "WFHS"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "WFHS",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (WFHS)",
+    "Name": "crdf0_wfh_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "WFHS"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "WFHS",
+    "Type": "OptionSetInfo"
+  }
+]

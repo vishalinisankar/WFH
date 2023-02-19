@@ -1,0 +1,288 @@
+Screen2 As screen:
+    BackgroundImage: =download
+    Fill: =LightGray
+    ImagePosition: =ImagePosition.Fill
+
+    Component1_2 As Component1:
+
+    Rectangle8 As rectangle:
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =46
+        Width: =1366
+        Y: =179
+        ZIndex: =2
+
+    Rectangle9 As rectangle:
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =46
+        Width: =1366
+        Y: =438
+        ZIndex: =3
+
+    Label5 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Semibold
+        Height: =46
+        Size: =17
+        Text: ="Personal Details"
+        Width: =300
+        X: =572
+        Y: =179
+        ZIndex: =4
+
+    TextInput1 As text:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(128, 128, 128, 1)
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Semibold
+        HoverBorderColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Size: =15
+        X: =188
+        Y: =245
+        ZIndex: =5
+
+    TextInput2 As text:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Default: =""
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Semibold
+        HoverBorderColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Size: =15
+        X: =810
+        Y: =245
+        ZIndex: =6
+
+    TextInput4 As text:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Default: =""
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Semibold
+        Height: =80
+        HoverBorderColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        Mode: =TextMode.MultiLine
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Size: =15
+        Width: =322
+        X: =808
+        Y: =321
+        ZIndex: =7
+
+    TextInput5 As text:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Default: =""
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Semibold
+        HoverBorderColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Size: =15
+        X: =188
+        Y: =324
+        ZIndex: =8
+
+    Label6 As label:
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Bold
+        Size: =15
+        Text: ="Employee Id"
+        Width: =166
+        X: =22
+        Y: =245
+        ZIndex: =9
+
+    Label6_1 As label:
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Bold
+        Size: =15
+        Text: ="Employee Name"
+        Width: =194
+        X: =614
+        Y: =245
+        ZIndex: =10
+
+    Label7 As label:
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Bold
+        Size: =15
+        Text: ="Phone Number"
+        Width: =172
+        X: =19
+        Y: =324
+        ZIndex: =11
+
+    Label8 As label:
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Bold
+        Size: =15
+        Text: ="Address"
+        X: =618
+        Y: =321
+        ZIndex: =12
+
+    Label9 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Semibold
+        Height: =43
+        Size: =17
+        Text: ="Additional Details"
+        Width: =290
+        X: =552
+        Y: =441
+        ZIndex: =13
+
+    Radio1 As radio:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Semibold
+        Height: =90
+        Items: =["Desktop","Laptop"]
+        Layout: =Layout.Horizontal
+        Size: =15
+        Width: =404
+        X: =800
+        Y: =506
+        ZIndex: =14
+
+    Radio2 As radio:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Semibold
+        Height: =106
+        Items: =["Dongle","Personal Network"]
+        Layout: =Layout.Horizontal
+        Size: =15
+        Width: =364
+        X: =168
+        Y: =575
+        ZIndex: =15
+
+    TextInput6 As text:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Default: =""
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Semibold
+        HoverBorderColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Size: =15
+        X: =190
+        Y: =516
+        ZIndex: =16
+
+    Label10 As label:
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Bold
+        Size: =15
+        Text: ="Project Name"
+        Width: =172
+        X: =16
+        Y: =520
+        ZIndex: =19
+
+    Label11 As label:
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Bold
+        Size: =15
+        Text: ="Type of Asset"
+        Width: =168
+        X: =618
+        Y: =516
+        ZIndex: =20
+
+    Label12 As label:
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Bold
+        Height: =68
+        Size: =15
+        Text: ="Type of Internet"
+        Width: =187
+        X: =19
+        Y: =575
+        ZIndex: =21
+
+    Label13 As label:
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Bold
+        Size: =15
+        Text: ="Start Date"
+        X: =618
+        Y: =570
+        ZIndex: =22
+
+    Label14 As label:
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Bold
+        Size: =15
+        Text: ="End Date"
+        X: =622
+        Y: =625
+        ZIndex: =23
+
+    DatePicker1 As datepicker:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Font: =Font.'Courier New'
+        Size: =15
+        X: =823
+        Y: =570
+        ZIndex: =28
+
+    DatePicker2 As datepicker:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Font: =Font.'Courier New'
+        Size: =15
+        X: =825
+        Y: =625
+        ZIndex: =29
+
+    Button1 As button:
+        Fill: =RGBA(0, 0, 0, 1)
+        Font: =Font.'Courier New'
+        OnSelect: |-
+            =Patch(WFHS;Defaults(WFHS);{EmployeeId:TextInput1.Text ,EmployeeName:TextInput2.Text,PhoneNumber:TextInput5.Text,Address:TextInput4.Text,ProjectName:TextInput6.Text,TypeofAsset:Radio1.Selected.Value,TypeofInternet:Radio2.SelectedText,Start:DatePicker1.SelectedDate,End:DatePicker2.SelectedDate,Owner:WFHS,WFH})
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
+        Size: =16
+        Text: ="Submit"
+        X: =676
+        Y: =711
+        ZIndex: =30
+
+    Button5 As button:
+        Fill: =RGBA(0, 0, 0, 1)
+        Font: =Font.'Courier New'
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
+        Size: =16
+        Text: ="Clear"
+        X: =443
+        Y: =711
+        ZIndex: =31
+
